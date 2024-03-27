@@ -34,3 +34,6 @@
 
 
 프로젝트 생성 후 pom.xml에 라이브러리 추가만 되어 있는 빈 프로젝트
+
+![image](https://github.com/janggihun/SpringLegacyMVC/assets/151517439/6eab549f-0405-441d-b1a0-c7fbd7080cc6)
+
