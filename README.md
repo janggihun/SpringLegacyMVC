@@ -1,4 +1,7 @@
-# spring-legacy-mvc-project 스프링 프로젝트 생성
+# spring-legacy-mvc-project 스프링 프로젝트 기본생성 및 추가 라이브러리
+
+* localhost:8080
+
 ### 추가한 라이브러리
 * 스프링 시큐리티(Spring Security)
 * 타일즈(Tiles)
