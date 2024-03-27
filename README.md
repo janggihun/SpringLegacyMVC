@@ -5,10 +5,8 @@
 * 마이바티스(MyBatis) - MariaDB
 * Log4jdbc
 * 롬복(Lombok)
-* 하이버네이트 밸리데이터(Hibernate Validator)
-* AOP
 
-### 버전정보
+### 버전정보 <<<변경예정 지금 안맞음 24/3/28
 * java-version 1.8
 * org.springframework-version 4.3.2.RELEASE
 * org.aspectj-version 1.9.5
