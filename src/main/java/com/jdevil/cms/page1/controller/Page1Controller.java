@@ -2,20 +2,16 @@ package com.jdevil.cms.page1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HomeController {
-
-	@GetMapping("/")
-	public String home() {
-		
-		return "home";
-	}
+@RequestMapping("/page1")
+public class Page1Controller {
 
 	@GetMapping("/main")
-	public String main() {
+	public String page1Main() {
 		
-		return "main";
+		return "page1/main";
 	}
+
 }
