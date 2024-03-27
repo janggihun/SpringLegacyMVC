@@ -1,7 +1,7 @@
 # spring-legacy-mvc-project 스프링 프로젝트 기본생성 및 추가 라이브러리
 
 * localhost:8080
-
+* tomcat은 9.0 // path 설정필수 : /
 ### 추가한 라이브러리
 * 스프링 시큐리티(Spring Security)
 * 타일즈(Tiles)
@@ -25,6 +25,6 @@
 * exec-maven-plugin 1.6.0
 * web.xml파일에 dtd web-app를 3.1로 변경
 
-* tomcat은 9.0로 돌릴것
+
 
 프로젝트 생성 후 pom.xml에 라이브러리 추가만 되어 있는 빈 프로젝트
