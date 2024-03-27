@@ -2,6 +2,12 @@
 
 * localhost:8080
 * tomcat은 9.0 // path 설정필수 : /
+
+
+* ![image](https://github.com/janggihun/SpringLegacyMVC/assets/151517439/c14e2353-109e-4f50-8c58-7922fc64b86c)
+
+
+
 ### 추가한 라이브러리
 * 스프링 시큐리티(Spring Security)
 * 타일즈(Tiles)
