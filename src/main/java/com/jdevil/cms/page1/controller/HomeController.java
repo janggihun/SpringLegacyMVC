@@ -1,4 +1,4 @@
-package com.jdevil.cms;
+package com.jdevil.cms.page1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

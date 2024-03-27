@@ -6,6 +6,7 @@
 <!-- SQL Mapping -->
 <mapper namespace="BoardDAO">
 	<insert id="insertBoard">
+	
 	</insert>
 
 </mapper>
