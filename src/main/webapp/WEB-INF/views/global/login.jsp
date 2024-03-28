@@ -13,9 +13,11 @@
 
 <div class = "loginContainer ">
 	<div class = "loginBox">
-		
-		<div class = "idBox centerGlobal"><input type = text placeholder="id를 적어주세요" id = "userId"/></div>
-		<div class = "pwBox centerGlobal"><input type = text placeholder="pw를 적어주세요" id = "userPw"/></div>
+		<form action="/login" method="post">
+			<div class = "idBox centerGlobal"><input type = text placeholder="id를 적어주세요" name = "userId" id = "userId" /></div>
+			<div class = "pwBox centerGlobal"><input type = text placeholder="pw를 적어주세요" name = "userPw" id = "userPw" /></div>
+			<div class = "loginBox" ><input type = "submit" value="로그인"></div>
+		</form>	
 	</div>
 </div>
 

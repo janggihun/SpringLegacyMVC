@@ -2,6 +2,7 @@ package com.jdevil.cms.page1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -13,5 +14,6 @@ public class Page1Controller {
 		
 		return "page1/main";
 	}
-
+	
+	
 }
