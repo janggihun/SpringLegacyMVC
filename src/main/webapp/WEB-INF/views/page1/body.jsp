@@ -4,11 +4,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Insert title here</title>
+<title>Page 1 Main</title>
+
+<%@include file = "../inc/header.jsp" %>
+
 </head>
 <body>
-여기는 홈 페이지입니다.
 
-<a href = "/main"> 메인으로 가기 </a>
+페이지 1의 메인입니다.
+<%@include file = "../page1/body.jsp" %>
+
+
 </body>
 </html>

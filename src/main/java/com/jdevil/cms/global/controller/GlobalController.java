@@ -9,12 +9,12 @@ public class GlobalController {
 	@GetMapping("/")
 	public String home() {
 
-		return "global/home";
+		return "global/main";
 	}
 
-	@GetMapping("/main")
+	@GetMapping("/login")
 	public String main() {
 
-		return "global/main";
+		return "global/login";
 	}
 }

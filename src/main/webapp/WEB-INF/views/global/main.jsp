@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Insert title here</title>
+<title>메인페이지</title>
 </head>
 <body>
 여기는 메인 페이지입니다.
 
-<a href = "/"> 홈으로 가기 </a>
+<a href = "/login"> 로그인 하러 가기 </a>
 
 
 </body>
