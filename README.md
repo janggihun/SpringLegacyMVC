@@ -2,7 +2,7 @@
 
 * localhost:8080
 * tomcat은 9.0 // path 설정필수 : /
-
+* sts3.9.11버전
 
 * ![image](https://github.com/janggihun/SpringLegacyMVC/assets/151517439/c14e2353-109e-4f50-8c58-7922fc64b86c)
 
