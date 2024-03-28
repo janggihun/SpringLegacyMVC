@@ -1,5 +1,7 @@
 package com.jdevil.cms.login.service;
 
+import java.util.HashMap;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,9 +15,9 @@ public class LoginService {
 	@Autowired
 	LoginDao loginDao;
 	
-	public void idcheck(MemberDto memberDto) {
+	public HashMap<String, Object> idcheck(MemberDto memberDto) {
 		
-		loginDao.idcheck(memberDto);
+		return loginDao.idcheck(memberDto);
 		
 	}
 

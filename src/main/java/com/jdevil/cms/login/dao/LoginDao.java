@@ -1,5 +1,7 @@
 package com.jdevil.cms.login.dao;
 
+import java.util.HashMap;
+
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -12,9 +14,9 @@ public class LoginDao {
 	@Autowired
 	SqlSession sqlSession;
 	
-	public void idcheck(MemberDto memberDto) {
+	public HashMap<String , Object> idcheck(MemberDto memberDto) {
 		
-		sqlSession.selectOne("selectNow");
+		return sqlSession.selectOne("idcheck",memberDto);
 	};
 
 	

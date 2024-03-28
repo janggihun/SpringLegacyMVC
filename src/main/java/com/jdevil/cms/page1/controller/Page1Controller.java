@@ -12,7 +12,7 @@ public class Page1Controller {
 	@GetMapping("/main")
 	public String page1Main() {
 		
-		return "page1/main";
+		return "page1/body";
 	}
 	
 	
