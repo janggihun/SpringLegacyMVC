@@ -18,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 
 
+
 @Controller
 @Slf4j
 public class LoginController {
@@ -42,7 +43,7 @@ public class LoginController {
 		if (rMap != null) {
 
 			session.setAttribute("userId", memberDto.getUserId());
-			return "page1/body";
+			return "redirect:/page1/main";
 		}
 
 		return "redirect:/login";
